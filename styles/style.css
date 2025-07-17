@@ -105,3 +105,41 @@ nav ul li a:hover{
     align-items: center;
     margin: 0 38px 0 230px;
 }
+
+/* About Section Start */
+    .about{
+        max-width: 1140px;
+        margin: 130px auto;
+        border-radius: 10px;
+        background-color: #FFF8F3;
+        padding: 130px 156px; 
+        text-align: center;
+    }
+
+    .about-us{
+        .h3{
+            font-size: 2.1rem;  
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 1.08rem;
+            color: var(--dark3);
+            margin-bottom: 30px;
+        }
+    }
+
+    .detail-div{
+        display: flex;
+        justify-content: space-between;
+        h4{
+            font-size: 1.2rem;
+            color: var(--dark3);
+            font-weight: 400;
+        }
+        h3{
+            font-size: 1.2rem;
+            color: var(--dark02);
+        }
+    }
+    
+/* About Section End */
