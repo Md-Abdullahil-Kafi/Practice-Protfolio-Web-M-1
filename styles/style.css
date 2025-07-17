@@ -36,6 +36,10 @@ header{
     background-repeat: no-repeat;
     background-position: bottom right, 30px;
 }
+
+nav .s-btn{
+    display: none;
+}
 nav ul{
     display: flex;
     align-items: center;
