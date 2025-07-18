@@ -18,7 +18,7 @@ body{
 }
 
 nav{
-    width: 1144px;
+    max-width: 1144px;
     margin: 0 auto;
     padding-top: 51px;
     display: flex;
@@ -298,6 +298,9 @@ nav ul li a:hover{
 
 /* Responsive for Small device Mobile version */
 @media screen and (max-width:576px) {
+    html{
+        font-size: 12px;
+    }
     header{
         background-image: none;
         ul{
@@ -306,11 +309,11 @@ nav ul li a:hover{
     }
     nav .s-btn{
         display: block;
+        margin-right: 0;
     }
     nav{
-        max-width: fit-content;
-        justify-content: center;
-        gap: 120px;
+        padding: 51px 25px;
+        
     }
     .hero-container{
         flex-direction: column-reverse;
